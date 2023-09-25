@@ -3,7 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	d := newDeck()
+	var d deck
+	d = newDeck()
 	d.shuffle()
 	handSize := 3
 	i := 0
